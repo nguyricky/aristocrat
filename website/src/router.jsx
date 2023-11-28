@@ -4,7 +4,8 @@ import { RouterProvider, createBrowserRouter  } from 'react-router-dom'
 import './index.css'
 
 import { 
-  Build
+  Build,
+  Main
 } from './components/index'
 
 const router = createBrowserRouter([
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Build />,
   },
+  {
+    path: "/dev",
+    element: <Main />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
