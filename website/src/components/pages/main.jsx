@@ -1,6 +1,8 @@
+import Nav from "./nav.js"
+
 const Main = () => {
     return (
-        <div></div>
+        <Nav />
     );
 };
   
