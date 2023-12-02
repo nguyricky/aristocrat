@@ -12,4 +12,4 @@
 
 ## License
 
-The site rickynguyen.dev is a [Apache Licensed](https://www.apache.org/licenses/LICENSE-2.0) software by [Ricky Nguyen](https://github.com/nguyricky)
+Aristocrat is a [Apache Licensed](https://www.apache.org/licenses/LICENSE-2.0) software by [Ricky Nguyen](https://github.com/nguyricky)
