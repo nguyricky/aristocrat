@@ -9,3 +9,7 @@
   <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
 </p>
+
+## License
+
+The site rickynguyen.dev is a [Apache Licensed](https://www.apache.org/licenses/LICENSE-2.0) software by [Ricky Nguyen](https://github.com/nguyricky)
