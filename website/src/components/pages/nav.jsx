@@ -2,14 +2,17 @@ import logo from "/logo_plain.svg"
 
 const Nav = () => {
     return (
-        <div className="navbar">
-            <div>
-                <img src={logo} alt="aristocrat" className="w-1/3 h-1/3 md:w-1/5 md:h-1/5"/>
-                <a className="text-xl text-accent">aristocrat</a>
-            </div>
+      <div className="grid grid-cols-1 md:grid-cols-6">
+        <section className="md:col-span-1"></section>
+        <div className="col-span-1 md:col-span-4 min-h-[8rem] w-full py-5 md:py-10">
+            <div className="flex flex-row align-middle items-center">
+                <img src={logo} alt="Logo" className="w-[40px] mx-auto md:mx-0"/>
+                <h2 className="mx-3 text-lg text-accent font-medium">aristocrat</h2>
+            </div>  
         </div>
+        <section className="md:col-span-1"></section>
+      </div>
     );
-};
+  };
   
-
-export default Nav
+export default Nav;
